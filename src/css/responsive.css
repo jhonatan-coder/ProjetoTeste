@@ -8,7 +8,6 @@
         margin: 30px;
         font-size: 2.5rem;
     }  
-    
      /*------------------PAGINA HOME---------------------*/
     
      .principal .primeira-sessao .campo-titulo h1 {
@@ -674,7 +673,9 @@
         margin: 10px;
         font-size: 1.5rem;
     }   
-
+    .cabecalho .flex-container {
+        font-size: 1.5rem;
+    }
     /*------------------PAGINA HOME---------------------*/
     .principal {
         margin-top: 80px;
