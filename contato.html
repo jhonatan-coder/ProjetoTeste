@@ -1,0 +1,72 @@
+!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto RPG</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="flex-container logo">
+            <img src="./src/img/Logo.png" alt="Imagem logo">
+            <h1 class="flex-container"> Runeterra </h1>
+        </div>
+            <nav>
+                <ul class="flex-container menu">
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    
+                    <li>
+                        <a href="./sobre.html">Sobre</a>
+                    </li>
+
+                    <li>
+                        <a href="./galeria.html">Galeria</a>
+                    </li>
+
+                    <li>
+                        <a href="./historia.html">História</a>
+                    </li>
+
+                    <li>
+                        <a href="./contato.html">Contato</a>
+                    </li>
+
+                </ul>
+            </nav>
+       
+    </header>
+    <section class="container-contato">
+        <form action="https://api.staticforms.xyz/submit" method="post" class="contato">
+            <div class="areaContato">
+
+                <div class="camposContato">
+                    <label for="text" class="labelNome" >Nome Completo</label>
+                    <input type="text" class="txtNome" name="text" id="text" placeholder="Nome completo" required>
+                </div>
+    
+                <div class="camposContato">
+                    <label for="email" class="labelEmail">E-mail</label>
+                    <input type="email" class="txtEmail" name="email" id="email" placeholder="Digite seu email aqui" required>
+                </div>
+    
+                <div class="camposContato">
+                    <label for="mensagem" class="labelMensagem">Mensagem</label>
+                    <textarea name="mensagem" class="txtMensagem" id="mensagem" cols="60" rows="10" placeholder="Digite sua mengasem nessa área" required></textarea>
+                </div>
+
+                <button type="submit" class="btn-enviar">Enviar</button>
+                <input type="hidden" name="accessKey" value="0a719f0c-378a-48ce-84c0-d67703d76d37">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obg.html">
+            </div>
+        </form>    
+    </section>
+</body>
+</html>
