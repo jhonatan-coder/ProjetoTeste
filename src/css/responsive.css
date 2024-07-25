@@ -673,8 +673,8 @@
         margin: 10px;
         font-size: 1.5rem;
     }   
-    .cabecalho .titulo-logo {
-        font-size: 1.5rem;
+    .cabecalho .logo .titulo-logo {
+        font-size: 2.5rem;
     }
     /*------------------PAGINA HOME---------------------*/
     .principal {
