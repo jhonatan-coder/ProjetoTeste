@@ -455,6 +455,7 @@ body {
     height: 40px;
     margin: 10px auto;
     border-radius: 10px;
+    cursor: pointer;
 }
 /*------------------------------------------------------------*/
 
