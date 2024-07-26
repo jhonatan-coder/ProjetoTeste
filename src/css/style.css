@@ -461,14 +461,13 @@ body {
 
 /*------------------PAGINA DE AGRADECIMENTO--------------------*/
 
-.container-obg {
-    width: 100%;
-    height: 100%;
-    background-color: #000;
+.principal-obg {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000;
+    top: 0;
+    position: fixed;
 }
 
 .agradecimento {
@@ -477,10 +476,18 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #ccc;
+    margin: auto;
     padding: 100px;
     border-radius: 15px;
     box-shadow: 2px 5px 8px #fff;
     position: relative;
+}
+.agradecimento h1 {
+    font-size: 4rem;
+}
+.agradecimento p {
+    font-size: 2.5rem;
+    text-align: center;
 }
 
 .agradecimento a {

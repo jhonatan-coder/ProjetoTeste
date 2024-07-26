@@ -464,6 +464,18 @@
     .historia .texto p{
         width: 300px;        
     }
+
+    .agradecimento{
+        padding: 60px;
+    }
+
+    .agradecimento h1 {
+        font-size: 3rem;
+    }
+
+    .agradecimento p {
+        font-size: 2.5rem;
+    }
 }
 
 @media(max-width: 450px){
@@ -642,8 +654,8 @@
     .contato .areaContato .camposContato label{
         font-size: 1.5rem;
     }
-
-   
+    
+    
     /*----------------------------------------------------*/
     .historia {
         width: 100%;
@@ -661,7 +673,18 @@
     .historia .texto p{
         width: 250px;        
     }
+    
+    .agradecimento{
+        padding: 60px;
+    }
 
+    .agradecimento h1 {
+        font-size: 2.5rem;
+    }
+
+    .agradecimento p {
+        font-size: 2rem;
+    }
 }
 
 @media(max-width: 400px){
@@ -849,5 +872,17 @@
         display: inline-block;
         margin-left: -30px;
         width: 250px;        
+    }
+
+    .agradecimento{
+        padding: 60px;
+    }
+
+    .agradecimento h1 {
+        font-size: 2rem;
+    }
+
+    .agradecimento p {
+        font-size: 1.5rem;
     }
 }
